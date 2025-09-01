@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+}
+
+body.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+header {
+  background-color: #623ff5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  background-color: #623ff5;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
